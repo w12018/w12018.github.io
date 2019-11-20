@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+@include font-face("Ubuntu", "../fonts/Ubuntu/Ubuntu-Light", 300);
+@include font-face("Ubuntu", "../fonts/Ubuntu/Ubuntu", normal);
+@include font-face("Ubuntu", "../fonts/Ubuntu/Ubuntu-Medium", 500);
+@include font-face("Ubuntu", "../fonts/Ubuntu/Ubuntu-Bold", bold);

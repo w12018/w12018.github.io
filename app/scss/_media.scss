@@ -1,0 +1,94 @@
+/* 1200 */
+
+@media only screen and (max-width: $xlarge) {}
+
+/* 992 */
+
+@media only screen and (max-width: $large) {}
+
+/* 768 */
+
+@media only screen and (max-width: $medium) {}
+
+/* 576 */
+
+@media only screen and (max-width: $small) {}
+
+
+@media only screen and (max-width: $small) and (orientation: portrait) {
+	body {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 556px) and (orientation: portrait) {
+	body {
+		font-size: 27px;
+	}
+}
+
+@media only screen and (max-width: 537px) and (orientation: portrait) {
+	body {
+		font-size: 26px;
+	}
+}
+
+@media only screen and (max-width: 517px) and (orientation: portrait) {
+	body {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 497px) and (orientation: portrait) {
+	body {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 477px) and (orientation: portrait) {
+	body {
+		font-size: 23px;
+	}
+}
+
+@media only screen and (max-width: 458px) and (orientation: portrait) {
+	body {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width: 438px) and (orientation: portrait) {
+	body {
+		font-size: 21px;
+	}
+}
+
+@media only screen and (max-width: 418px) and (orientation: portrait) {
+	body {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 399px) and (orientation: portrait) {
+	body {
+		font-size: 19px;
+	}
+}
+
+@media only screen and (max-width: 379px) and (orientation: portrait) {
+	body {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 359px) and (orientation: portrait) {
+	body {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 340px) and (orientation: portrait) {
+	body {
+		font-size: 16px;
+	}
+}

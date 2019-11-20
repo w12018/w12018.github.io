@@ -1,0 +1,15 @@
+/* Multi-properties mixins */
+
+$tmp-background-value: none;
+@mixin bckg($value, $append: false) {
+	@if ($tmp-background-value==none) {
+		$tmp-background-value: $value !global;
+	}
+	@else {
+		$tmp-background-value: ($tmp-background-value, $value) !global;
+	}
+	@if ($append==false) {
+		background: $tmp-background-value;
+		$tmp-background-value: none !global;
+	}
+}

@@ -1,0 +1,56 @@
+@import "_mixins/animation";
+@import "_mixins/multiprop";
+
+/* Grid sizes. Change, if don't use default */
+
+$xlarge: 1199.98px;
+$large: 991.98px;
+$medium: 767.98px;
+$small: 575.98px;
+
+/* Font vars */
+
+$font-base: "Ubuntu", sans-serif;
+
+/* Colors */
+
+$color-font-base: #222;
+$color-font-second: #0072ff;
+$color-base: #fff;
+$color-section: #edf5ff;
+$color-menu: #ef778a;
+$color-menu-2: #f7a191;
+$color-accent: #00c6ff;
+$color-link: #0072ff;
+$color-link-saturate: #00c6ff;
+$color-danger: #d30909;
+$color-danger-saturate: #e07777;
+$color-accent: #03ac44;
+$color-accent-saturate: #3eeb80;
+$color-usared: darkred;
+$color-usablue: darkblue;
+$color-limited: #FFA726;
+
+/* Colors - social */
+
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #bb0000;
+$vimeo: #1ab7ea;
+$tumblr: #32506d;
+$instagram: #bc2a8d;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$odnoklassniki: #ed812b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
