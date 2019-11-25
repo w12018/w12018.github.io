@@ -71,13 +71,13 @@ gulp.task('watch', function () {
 	gulp.watch(['scss/*.scss', 'scss/**/*.scss'], gulp.parallel('scss'));
 	gulp.watch(['libs/*.js', 'js/common.js'], gulp.parallel('jslibs'));
 	gulp.watch('js/*.js', gulp.parallel('scripts'));
-    gulp.watch('img/*.jpg', 'img/*.png', gulp.parallel('imagemin'));
+    gulp.watch(['img/*.jpg', 'img/*.png'], gulp.parallel('imagemin'));
 	gulp.watch('dist/*.html').on('change', reload);
 });
 
 gulp.task('imagemin', function () {
 	return gulp.src('img/**/*')
-		.pipe(cache(imagemin()))
+		.pipe(imagemin())
 		.pipe(gulp.dest('dist/images'));
 });
 
