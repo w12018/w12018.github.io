@@ -201,7 +201,14 @@ p[class^="error_"] {
     }
 }
 
-header {}
+header {
+    a {
+        display: block;
+        font-size: 13px;
+        font-family: "Montserrat";
+        font-weight: 400;
+    }
+}
 
 footer {}
 
