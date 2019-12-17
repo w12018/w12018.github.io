@@ -78,7 +78,7 @@ gulp.task('watch', function () {
 gulp.task('imagemin', function () {
 	return gulp.src('img/**/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('dist/images'));
+		.pipe(gulp.dest('dist/assets/images'));
 });
 
 gulp.task('clearcache', function () {

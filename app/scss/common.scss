@@ -201,6 +201,78 @@ p[class^="error_"] {
     }
 }
 
+.left-lookbook,.center-lookbook, .right-lookbook{
+ padding-top: 30px;
+ background-color: rgb(248, 248, 248);
+ height: 100%;
+}
+
+.lookbook img {
+  background-color: rgb(248, 248, 248);
+  float: left;
+  width: 40%;
+  height: 100%;
+
+}
+.button-lookbook a {
+    display: inline-block;
+    padding-top: 10px;
+}
+.button-lookbook{
+    text-align: right;
+    transition: scale 1s ease-out 0.5s;
+}
+.button-lookbook a:hover{
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(248, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+.button-lookbook a:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 200, 200);
+  background-color: rgb(0, 200, 200);
+  transform: scale(1.05,1.05);
+  text-align: center;
+}
+
+.button-lookbook a{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(69, 70, 71);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+.button-lookbook a {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(115, 115, 115);
+  background-color: rgba(115, 115, 115, 0);
+  width: 150px;
+  height: 40px;
+}
+.lookbook h1{
+
+  font-size: 28px;
+  font-family: "Montserrat";
+  color: rgb(87, 81, 83);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.125;
+  text-align: right;
+}
+.lookbook p{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(114, 114, 114);
+  line-height: 1.467;
+  text-align: right;
+}
+
 header {}
 
 footer {}
