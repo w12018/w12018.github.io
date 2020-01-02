@@ -1,0 +1,42 @@
+[class^=img] {
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px 0;
+    height: 300px
+}
+
+[class^=price] {
+    height: 25px;
+    width: 50px;
+    font-size: 0.5em;
+    padding: 1em;
+
+}
+
+.img1 {
+
+    background-image: url(/app/image/home%20man1-min.png)
+}
+
+.img2 {
+    background-image: url(/app/image/home%20gerl2-min.png)
+}
+
+.img3 {
+    height: 400px;
+    background-image: url(/app/image/home%20man3-min.png)
+}
+
+.img4 {
+    height: 400px;
+    background-image: url(/app/image/home%20man2-min.png)
+}
+
+.img5 {
+    background-image: url(/app/image/home%20gerl1-min.png)
+}
+
+.img6 {
+
+    background-image: url(/app/image/home%20gerl3-min.png)
+}
